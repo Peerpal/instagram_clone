@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instaclone</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= stylesheet_pack_tag 'style', media: 'all' %>
+    <%= javascript_pack_tag 'application' %>
+    <%= javascript_pack_tag 'app' %> 
+  </head>
+
+  <body class="min-h-screen bg-gray-100">
+    <div id="app">
+      <%= render 'header' %>
+      <%= yield %>
+    </div>
+</body>
+</html>
