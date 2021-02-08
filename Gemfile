@@ -29,7 +29,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'mini_magick', '~> 4.9', '>= 4.9.5'
 gem 'fog', '~> 2.2'
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
